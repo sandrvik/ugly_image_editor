@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="file" id="myFile" name="filename">
+        <div class="canvasContainer">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="buttons">
+            <div class="undo-redo">
+                <button id="undo">Undo</button>
+                <button id="redo">Redo</button>
+            </div>
+            <form name="sizeForm"> Size
+                <select name="size" id="size">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+            </form>
+            <form name="colorForm"> Color
+                <select name="color" id="color">
+                    <option value="black">black</option>
+                    <option value="white">white</option>
+                    <option value="red">red</option>
+                </select>
+            </form>
+            <button id="clear">Clear</button>
+        </div>
+
+    </div>
+    </div>
+    <script type="application/javascript" src="script.js"></script>
+</body>
+
+</html>

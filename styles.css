@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 40px auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#canvas {
+    display: block;
+    margin: 40px auto;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #b5d600;
+    border-radius: 10px;
+
+}
+
+button:active {
+    font-size: 0.9em;
+    background-color: rgb(141 167 3);
+}
+
